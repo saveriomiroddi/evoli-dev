@@ -14,8 +14,9 @@ thread_profiler = "0.3.0"
 # TODO: find a way to update the features based on which platform is targeted
 # MacOS needs the metal feature while other platforms use vulkan.
 [dependencies.amethyst]
-version = "0.15.0"
+branch = "REFERENCE/profiled_frame_limiter/0.15.0"
 features = ["vulkan", "gltf"]
+git = "https://github.com/saveriomiroddi/amethyst-dev"
 
 [features]
 profiler = [

@@ -13,3 +13,6 @@
 
 # profiles
 thread_profile*
+
+# frame limiter profiling data
+/framelimiter_data
